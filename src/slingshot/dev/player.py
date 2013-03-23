@@ -57,7 +57,7 @@ class Player(pygame.sprite.Sprite):
 			self.image = self.orig.subsurface(0, 0, 40, 33)
 		elif self.player == 2:
 			self.angle = 270
-			self.orig, self.rect = load_image("patlu.png", (0,0,0))
+			self.orig, self.rect = load_image("training_target.png", (0,0,0))
 			self.color = (132,152,192)
 			self.rect = pygame.Rect(0,0,40,33)
 			if y_coord == None:
